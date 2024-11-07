@@ -10,7 +10,27 @@ $<!doctype html>
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    
+    <div class="row">
+      <div class="column">
+        <table>
+          <?php
+            require_once "conexion.php";
+
+            $sql = "SELECT * FROM asistentes;";
+
+            //Ejecutar la consulta
+            $resultado = mysqli_query($conexion, $sql);
+
+            echo "<pre>";
+            print_r($resultado);
+            echo "</pre>";
+          ?>
+        </table>
+      </div>
+      <div class="column">
+
+      </div>
+    </div> 
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

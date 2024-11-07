@@ -16,7 +16,7 @@
                 <div class="col-12">
                     <form action="procesar.php" method="POST" enctype="multipart/form-data">
                         <form action="codigo_qr,php" method="post" enctype="multipart/form.data">
-                          <div class="mb-3">
+                            <div class="mb-3">
                                 <label for="nombre" class="form-label">Nombre Completo</label>
                                 <input type="text" class="form-control" id="nombre" name="nombre">
                             </div>
